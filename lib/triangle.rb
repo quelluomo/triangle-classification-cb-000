@@ -7,16 +7,16 @@ class Triangle
     @c = c
   end
 
-  def kind 
+  def kind
     if a==b && b==c && a==c
       :equilateral
-    elsif a==b || b==c || a==c 
+    elsif a==b || b==c || a==c
       :isosceles
     else
       :scalene
-    end  
-      
     end
 
-  
+    end
+
+
 end
