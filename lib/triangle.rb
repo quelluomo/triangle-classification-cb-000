@@ -17,7 +17,11 @@ class Triangle
     end
   end
 
+
   class TriangleError < StandardError
-  end 
+    def message 
+      "Ano, sumimasen. Toraianguru erro da!"
+    end
+  end
 
 end
