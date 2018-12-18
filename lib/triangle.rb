@@ -13,7 +13,7 @@ class Triangle
         raise TriangleError
       end
     else
-      if a==b && b==c && a==c
+      if a==b && b==c
         :equilateral
       elsif a==b || b==c || a==c
         :isosceles
